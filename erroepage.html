@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="input.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <!-- component -->
+    <main class="h-screen w-full flex flex-col justify-center items-center bg-[#1A1A1A]">
+        <h1 class="text-9xl font-extrabold text-white tracking-widest">404</h1>
+        <div class="bg-[#59D9FD] px-2 text-sm rounded rotate-12 absolute">
+            Page Not Found
+        </div>
+        <button class="mt-5">
+            <a
+                class="relative inline-block text-sm font-medium text-[#59D9FD] group active:text-[#59D9FD] focus:outline-none focus:ring">
+                <span
+                    class="absolute inset-0 transition-transform translate-x-0.5 translate-y-0.5 bg-[#59D9FD] group-hover:translate-y-0 group-hover:translate-x-0"></span>
+
+                <span class="relative block px-8 py-3 bg-[#1A1A1A] border border-current">
+                    <router-link to="/">Go Home</router-link>
+                </span>
+            </a>
+        </button>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</body>
+
+</html>
